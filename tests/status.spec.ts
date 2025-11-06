@@ -31,7 +31,7 @@ test.describe('Status Change', () => {
     await homePage.changeStatusToNotReady();
     await homePage.logout();
     await loginPage.waitForLoginForm();
-    // Verify successful logout by checking for the presence of the login form
-  console.log('Logout successful after returning to Not Ready status.');
+
+
   });
 });
