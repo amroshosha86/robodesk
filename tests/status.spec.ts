@@ -31,8 +31,5 @@ test.describe('Status Change', () => {
     await homePage.changeStatusToNotReady();
     await homePage.logout();
     await loginPage.waitForLoginForm();
-    11000000
-
-//22222
   });
 });
